@@ -1,0 +1,11 @@
+{
+  "strong": {
+    "egc": {"raw_tau": 0.1, "random_flush": 0.15, "random_batch_mild": 0.35, "random_batch_strong": 0.4},
+    "plc": {"pad8": 0.08, "pad16": 0.18, "pad32": 0.28, "pad64": 0.30, "pad128": 0.16},
+    "tsc": {"no_jitter": 0.38, "jitter20": 0.39, "jitter50": 0.16, "gap_fill": 0.07}
+  },
+  "plc": {"scale": 1.2},
+  "tsc": {"pace": [21.1140, 47.5065], "cover_cap": 5},
+  "mech": {"type": "ramp", "r0": 0.4, "T": [200, 600], "origin": "first_release", "rule": "integral"},
+  "cover_tail_quantile": 0.99
+}

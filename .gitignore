@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# local TLS material and debugging output
+*.pem
+*.key
+*keylog*
+logs/
+*.pcap
+*.pcapng
